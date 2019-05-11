@@ -1,0 +1,41 @@
+.card-states {
+    height: 13px;
+    width: 52px;
+    color: #48474A;
+    font-size: 10px;
+    line-height: 13px;
+    border-radius: 2px;
+}
+
+.card-orders {
+    width: 74px;
+    border-radius: 3px;
+}
+
+.cards-number {
+    height: 45px;
+    width: 56px;
+    background-color: #FAFAFA;
+    @include card-shadow();
+}
+
+.box-states {
+    height: 36px;
+    width: auto;
+    background-color: white;
+    border: 0.5px solid #D8D8D8;
+    border-radius: 2px;
+}
+
+.box-store {
+    width: 234px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box-title-store {
+    border-radius: 2px;
+    background-color: $green-light;
+    color: white;
+}

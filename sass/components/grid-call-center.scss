@@ -1,0 +1,38 @@
+.grid-states-call {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-section-call {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.grid-number-rejected {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.grid-store-box {
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    align-items: center;
+    grid-gap: 1em;
+}
+
+.grid-states-store {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
+.grid-name-store {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,16 @@
+// Config
+@import 'config/variables.scss';
+@import 'config/colors.scss';
+@import 'config/margin-padding.scss';
+@import 'config/titles.scss';
+@import 'config/mixin.scss';
+@import'config/hacks.scss';
+// Base
+@import "base/base.scss";
+// Components
+@import "components/buttons.scss";
+@import "components/cards.scss";
+@import "components/tables.scss";
+@import 'components/images.scss';
+@import 'components/section.scss';
+@import 'components/grid-call-center.scss';

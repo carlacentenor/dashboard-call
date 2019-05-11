@@ -1,0 +1,17 @@
+header {
+    background-color: white;
+}
+
+.section-logo {
+    height: 150px;
+    background-color: $gray-dark;
+}
+
+.section-call-center {
+    height: 180px;
+    width: 480px;
+    background-color: #FFFFFF;
+    @include card-shadow();
+    top: 25px;
+    left: 25px;
+}
