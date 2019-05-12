@@ -30,6 +30,10 @@
   background-color: #C366D2;
 }
 
+.bg-gray-3 {
+  background-color: #F7F7F7;
+}
+
 .m-title {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -70,6 +74,10 @@
   font-size: 14px;
 }
 
+.title-7 {
+  font-size: 10px;
+}
+
 .title-position {
   top: 10px;
 }
@@ -80,9 +88,25 @@
   background-color: #2EC83D;
 }
 
+.table td,
+.table th {
+  padding: 1em;
+  vertical-align: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #48474A;
+}
+
+.btn-table {
+  height: 24px;
+  width: 84px;
+  border-radius: 5px;
+  background-color: #5E9DD7;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
 }
 
 .card-states {
@@ -127,6 +151,10 @@ body {
   border-radius: 2px;
   background-color: #2EC83D;
   color: white;
+}
+
+.table {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .image-logo {
@@ -193,6 +221,61 @@ header {
 .grid-name-store {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabs label {
+  order: 1;
+  display: block;
+  padding: 10px 2rem;
+  margin-right: 0.1px;
+  cursor: pointer;
+  background-color: #EBEBEB;
+  font-weight: bold;
+  transition: background ease 0.2s;
+  border-radius: 8px 8px 0 0;
+  border: 0.5px solid #D8D8D8;
+  font-size: 10px;
+  width: 150px;
+  text-align: center;
+  height: 31px;
+}
+
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  background: white;
+}
+
+.tabs input[type=radio] {
+  display: none;
+}
+
+.tabs input[type=radio]:checked + label {
+  background: white;
+}
+
+.tabs input[type=radio]:checked + label + .tab {
+  display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+.tabs label {
+    order: initial;
+  }
+
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
