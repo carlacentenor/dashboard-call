@@ -256,6 +256,14 @@ header {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-store-general {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 1.5em 1em;
+  justify-items: center;
+}
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
