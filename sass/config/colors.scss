@@ -2,6 +2,10 @@
     color: white;
 }
 
+.gray-text{
+    color: $gray-dark;
+}
+
 .bg-gray-light {
     background-color: $gray-light;
 }
@@ -12,6 +16,14 @@
 
 .bg-orange {
     background-color: $orange;
+}
+
+.bg-skyblue{
+    background-color: $blue-sky;
+}
+
+.bg-green-dark{
+    background-color: $green-dark;
 }
 
 .bg-purple {

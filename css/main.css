@@ -2,6 +2,10 @@
   color: white;
 }
 
+.gray-text {
+  color: #919191;
+}
+
 .bg-gray-light {
   background-color: #D8D8D8;
 }
@@ -12,6 +16,14 @@
 
 .bg-orange {
   background-color: #F5871F;
+}
+
+.bg-skyblue {
+  background-color: #5E9DD7;
+}
+
+.bg-green-dark {
+  background-color: #00A282;
 }
 
 .bg-purple {
@@ -37,6 +49,11 @@
 .m-title {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.p-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .flex-center {
@@ -97,13 +114,13 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #48474A;
+  background-color: #F7F7F7;
 }
 
 .btn-table {
   height: 24px;
   width: 84px;
   border-radius: 5px;
-  background-color: #5E9DD7;
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
@@ -153,8 +170,23 @@ body {
   color: white;
 }
 
+.bar-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
 .table {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.edit-input {
+  height: 24px;
+  width: 89px;
+  border: 1px solid #5E9DD7;
+  border-radius: 1px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 3px 0 #5E9DD7;
+  text-align: center;
 }
 
 .image-logo {
@@ -166,6 +198,7 @@ body {
 
 header {
   background-color: white;
+  box-shadow: 0px -2px 5px 0px #9e9c9e;
 }
 
 .section-logo {
@@ -250,7 +283,6 @@ header {
   flex-grow: 1;
   width: 100%;
   display: none;
-  background: white;
 }
 
 .tabs input[type=radio] {
@@ -276,6 +308,13 @@ header {
     margin-right: 0;
     margin-top: 0.2rem;
   }
+}
+.tab-stores {
+  width: 660px;
+}
+
+.tab-pay {
+  width: 891px;
 }
 
 /*# sourceMappingURL=main.css.map */

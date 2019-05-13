@@ -6,21 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <p class="title-1 m-title pl-3"><i class="fas fa-arrow-left"></i>Home / Equivalencias</p>
+    <header >
+        <p class="title-1 p-title pl-3 mb-0"><i class="fas fa-arrow-left pr-3"></i><span class="gray-text">Home </span> /
+            Equivalencias</p>
     </header>
-    <section class="bg-gray-3">
+    <section >
         <div class="tabs p-3">
             <input type="radio" name="tabs" id="tabone" checked="checked">
             <label class=" mb-0" for="tabone">Tipo de Venta</label>
-            <div class="tab">
+            <div class="tab ">
+                <table class="table table-bordered mb-0  tab-pay  text-center">
+                    <thead>
+                        <tr class="title-5 ">
+                            <th scope="col">Origen</th>
+                            <th scope="col">Tipo de Venta</th>
+                            <th scope="col">Código</th>
+                            <th scope="col">Acción</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="title-5">
+                        <tr>
+
+                            <td>Call Center</td>
+                            <td class="gray-text">Delivery - Call Center</td>
+                            <td class="gray-text">
+
+                                    <p class="mb-0">1001</p> 
+                                    <!-- <input class="edit-input" value="1001" type="text"> -->
+                            </td>
+                            <td>
+                                <button class=" btn-table bg-skyblue">Editar</button>
+                                <!-- <button class="btn-table bg-green-dark">Guardar</button> -->
+                            </td>
+                        </tr>
+
+                </table>
+            </div>
+
+            <input type="radio" name="tabs" id="tabtwo">
+            <label class=" mb-0" for="tabtwo">Forma de Pago</label>
+            <div class="tab ">
+                <table class=" tab-pay table table-bordered mb-0  text-center">
+                    <thead>
+                        <tr class="title-5 ">
+                            <th scope="col">Canal de Venta</th>
+                            <th scope="col">Forma de Pago</th>
+                            <th scope="col">Código</th>
+                            <th scope="col">Acción</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="title-5">
+                        <tr>
+
+                            <td>Call Center- Domicilios</td>
+                            <td class="gray-text">Efectivo Soles</td>
+                            <td class="gray-text">
+                                <p class="mb-0">1001</p> 
+                                <!-- <input class="edit-input" value="1001" type="text"> -->
+                            </td>
+                            <td>
+                                <button class=" btn-table bg-skyblue">Editar</button>
+                                <!-- <button class="btn-table bg-green-dark">Guardar</button> -->
+                            </td>
+                        </tr>
+
+                </table>
+            </div>
+
+            <input type="radio" name="tabs" id="tabthree">
+            <label class=" mb-0" for="tabthree">Tienda</label>
+            <div class="tab ">
                 <table class="table table-bordered mb-0  text-center">
                     <thead>
                         <tr class="title-5 ">
@@ -38,83 +104,28 @@
 
                             <td>2100</td>
                             <td>Monterrico</td>
-                            <td>G001</td>
-                            <td>R001</td>
-                            <td>U001</td>
-                            <td>O001</td>
+                            <td class="gray-text">
+                                <p class="mb-0">G001</p> 
+                                <!-- <input class="edit-input" value="G001" type="text"> -->
+                            </td>
+                            <td class="gray-text">
+                                    <p class="mb-0">R001</p> 
+                                    <!-- <input class="edit-input" value="R001" type="text"> -->
+                            </td>
+                            <td class="gray-text">
+                                    <p class="mb-0">U001</p> 
+                                    <!-- <input class="edit-input" value="U001" type="text"> -->
+                            </td>
+                            <td class="gray-text">
+                                    <p class="mb-0">O001</p> 
+                                    <!-- <input class="edit-input" value="O001" type="text"> -->
+                            </td>
                             <td>
-                                <button class=" btn-table">Editar</button>
+                                <button class=" btn-table bg-skyblue">Editar</button>
+                                <!-- <button class="btn-table bg-green-dark">Guardar</button> -->
                             </td>
                         </tr>
 
-                </table>
-            </div>
-
-            <input type="radio" name="tabs" id="tabtwo">
-            <label class=" mb-0" for="tabtwo">Forma de Pago</label>
-            <div class="tab">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <input type="radio" name="tabs" id="tabthree">
-            <label class=" mb-0" for="tabthree">Tienda</label>
-            <div class="tab">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
                 </table>
             </div>
         </div>

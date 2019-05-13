@@ -25,7 +25,7 @@
     flex-grow: 1;
     width: 100%;
     display: none;
-    background: white;
+    // background: white;
 }
 
 .tabs input[type="radio"] {
@@ -50,4 +50,13 @@
         margin-right: 0;
         margin-top: 0.2rem;
     }
+}
+
+
+.tab-stores{
+    width: 660px;
+}
+
+.tab-pay{
+    width: 891px;
 }
