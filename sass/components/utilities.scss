@@ -1,0 +1,20 @@
+.cursor {
+    cursor: pointer;
+}
+
+// Border round
+.round-left {
+    border-radius: 4px 0 0 0;
+}
+
+.round-right {
+    border-radius: 0 4px 0 0;
+}
+
+.round-left-bot {
+    border-radius: 0 0 0 4px;
+}
+
+.round-right-bot {
+    border-radius: 0 0 4px 0;
+}
