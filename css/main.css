@@ -111,6 +111,16 @@
   vertical-align: 0;
 }
 
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-bottom: 0.5px solid #D8D8D8;
+  border-top: 0.5px solid #D8D8D8;
+  border-left: 0.5px solid #D8D8D8;
+  outline: 0;
+  box-shadow: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #48474A;
@@ -124,6 +134,15 @@ body {
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
+}
+
+.btn-search {
+  height: 31px;
+  width: 59px;
+  border-radius: 0 4px 4px 0;
+  background-color: #5E9DD7;
+  color: white;
+  text-align: center;
 }
 
 .card-states {
@@ -264,6 +283,17 @@ header {
   justify-items: center;
 }
 
+.grid-input-search {
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+
+.grid-filter-search {
+  display: grid;
+  grid-template-columns: 200px 2px auto;
+  align-items: center;
+}
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
@@ -323,6 +353,47 @@ header {
 
 .tab-pay {
   width: 891px;
+}
+
+.input-search {
+  border: 0.5px solid #D8D8D8;
+  height: 31px;
+  width: 100%;
+  border-left: none;
+}
+.input-search::placeholder {
+  font-size: 10px;
+  color: #D8D8D8;
+  padding-left: 10px;
+}
+
+.select-filter {
+  border: none;
+  height: 31px;
+  border-radius: 0;
+  border-bottom: 0.5px solid #D8D8D8;
+  border-top: 0.5px solid #D8D8D8;
+  border-left: 0.5px solid #D8D8D8;
+  border-right: none;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  font-size: 10px;
+  color: #D8D8D8;
+  width: 200px;
+}
+
+.border-line {
+  border-bottom: 0.5px solid #D8D8D8;
+  border-top: 0.5px solid #D8D8D8;
+  height: 31px;
+  background-color: white;
+}
+
+.line-form {
+  box-sizing: border-box;
+  height: 24px;
+  width: 2px;
+  border: 1px dashed #D8D8D8;
 }
 
 /*# sourceMappingURL=main.css.map */

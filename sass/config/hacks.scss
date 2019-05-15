@@ -9,3 +9,15 @@
     padding: 1em;
     vertical-align: 0;
 }
+
+
+.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-bottom: 0.5px solid #D8D8D8;
+    border-top:  0.5px solid #D8D8D8;
+    border-left:  0.5px solid #D8D8D8;
+    outline: 0;
+    box-shadow: none;
+
+}

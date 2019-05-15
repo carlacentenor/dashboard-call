@@ -45,3 +45,15 @@
     grid-gap:1.5em 1em ;
     justify-items: center;
 }
+
+
+.grid-input-search{
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+
+.grid-filter-search{
+    display: grid;
+    grid-template-columns: 200px 2px auto;
+    align-items: center;
+}
