@@ -26,11 +26,19 @@
     width: 200px;
 }
 
+
+
 .border-line{
     border-bottom: 0.5px solid $gray-light;
     border-top:  0.5px solid $gray-light;
     height: 31px;
     background-color: white;
+}
+
+.select-filter-only{
+    border: 0.5px solid $gray-light;
+    border-radius: 4px;
+    width: 310px;
 }
 
 .line-form{

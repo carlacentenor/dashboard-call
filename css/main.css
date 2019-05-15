@@ -319,6 +319,7 @@ header {
   grid-template-columns: 200px 2px auto;
   align-items: center;
 }
+
 .grid-orders-detail {
   display: grid;
   grid-template-columns: 310px 2fr 0.8fr;
@@ -332,6 +333,11 @@ header {
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid #D8D8D8;
   padding: 10px;
+}
+
+.grid-bar-search {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .tabs {
@@ -427,6 +433,12 @@ header {
   border-top: 0.5px solid #D8D8D8;
   height: 31px;
   background-color: white;
+}
+
+.select-filter-only {
+  border: 0.5px solid #D8D8D8;
+  border-radius: 4px;
+  width: 310px;
 }
 
 .line-form {

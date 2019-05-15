@@ -70,3 +70,8 @@
     border: 1px solid $gray-light;
     padding: 10px;
 }
+
+.grid-bar-search{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
