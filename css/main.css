@@ -386,4 +386,12 @@ header {
   border-radius: 0 0 4px 0;
 }
 
+.state-store-alert {
+  background-color: #DD3D3D;
+}
+.state-store-alert .box-title-store {
+  color: white;
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=main.css.map */
