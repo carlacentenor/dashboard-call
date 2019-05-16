@@ -119,6 +119,13 @@
   text-decoration: underline;
 }
 
+.title-impuestos {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 26px;
+}
+
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
   border-color: #2EC83D;
@@ -149,11 +156,12 @@ body {
 
 .btn-table {
   height: 24px;
-  width: 84px;
+  min-width: 84px;
   border-radius: 5px;
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
+  font-size: 12px;
 }
 
 .btn-search {
@@ -244,6 +252,13 @@ body {
 
 .table-limit td {
   padding: 0.5em;
+}
+
+.table-impuestos {
+  width: 619px;
+}
+.table-impuestos th {
+  width: 154px;
 }
 
 .image-logo {
@@ -355,6 +370,8 @@ header {
 .grid-bar-search {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 619px;
+  align-items: center;
 }
 
 .grid-orders-false {
