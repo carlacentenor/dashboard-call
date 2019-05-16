@@ -65,3 +65,46 @@
         border: 1px dashed $gray-light;
     
 }
+
+
+.c_checkbox input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.c_checkbox label {
+    position: relative;
+    cursor: pointer;
+    bottom: 4px;
+   
+}
+
+.c_checkbox label:before {
+    content: '';
+    background-color: transparent;
+    border: 1px solid $gray-dark;
+    border-radius: 4px;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.c_checkbox input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 7px;
+    width: 5px;
+    height: 12px;
+    border: solid $green-dark;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

@@ -2,6 +2,14 @@
   color: white;
 }
 
+.gray-dark-text {
+  color: #919191;
+}
+
+.blue-sky-text {
+  color: #5E9DD7;
+}
+
 .gray-text {
   color: #919191;
 }
@@ -259,6 +267,14 @@ body {
 }
 .table-impuestos th {
   width: 154px;
+}
+
+.table-canal th {
+  min-width: 112px;
+}
+
+.store-table {
+  bottom: 7.5px;
 }
 
 .image-logo {
@@ -561,6 +577,47 @@ header {
   height: 24px;
   width: 2px;
   border: 1px dashed #D8D8D8;
+}
+
+.c_checkbox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.c_checkbox label {
+  position: relative;
+  cursor: pointer;
+  bottom: 4px;
+}
+
+.c_checkbox label:before {
+  content: "";
+  background-color: transparent;
+  border: 1px solid #919191;
+  border-radius: 4px;
+  padding: 9px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.c_checkbox input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 7px;
+  width: 5px;
+  height: 12px;
+  border: solid #00A282;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
 .cursor {
