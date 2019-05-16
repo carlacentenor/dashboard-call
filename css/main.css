@@ -10,6 +10,10 @@
   background-color: #D8D8D8;
 }
 
+.bg-gray-rgba {
+  background-color: rgba(216, 216, 216, 0.3);
+}
+
 .bg-yellow {
   background-color: #F6CF2E;
 }
@@ -338,6 +342,73 @@ header {
 .grid-bar-search {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-orders-false {
+  display: grid;
+  grid-template-areas: "operacion local observacion" "canal cliente observacion" "monto direccion observacion" "cajero referencias observacion" "admin telefono observacion" "driver correo observacion";
+  grid-template-columns: 310px 2fr 0.8fr;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.observacion {
+  grid-area: observacion;
+}
+
+.operacion {
+  grid-area: operacion;
+}
+
+.local {
+  grid-area: local;
+}
+
+.canal {
+  grid-area: canal;
+}
+
+.cliente {
+  grid-area: cliente;
+}
+
+.monto {
+  grid-area: monto;
+}
+
+.direccion {
+  grid-area: direccion;
+}
+
+.cajero {
+  grid-area: cajero;
+}
+
+.referencias {
+  grid-area: referencias;
+}
+
+.admin {
+  grid-area: admin;
+}
+
+.telefono {
+  grid-area: telefono;
+}
+
+.driver {
+  grid-area: driver;
+}
+
+.correo {
+  grid-area: correo;
+}
+
+.grid-observation {
+  display: grid;
+  grid-template-rows: 30px 1fr 45px;
+  align-items: center;
+  padding: 10px 10px 0 10px;
 }
 
 .tabs {
