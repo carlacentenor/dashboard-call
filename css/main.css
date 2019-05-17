@@ -308,6 +308,10 @@ body {
   bottom: 7.5px;
 }
 
+.table-modal {
+  box-shadow: none;
+}
+
 .image-logo {
   height: 86px;
   width: 213px;
@@ -504,6 +508,15 @@ header {
 
 .states-select:hover {
   background-color: #F7F7F7;
+}
+
+.grid-modal-detail-order {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.modal-w {
+  width: 480px;
 }
 
 .tabs {

@@ -175,3 +175,13 @@
 .states-select:hover{
     background-color:$gray-light-3;
 }
+
+.grid-modal-detail-order{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+
+.modal-w{
+    width: 480px;
+}
