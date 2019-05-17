@@ -185,3 +185,8 @@
 .modal-w{
     width: 480px;
 }
+
+.grid-radio{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+}

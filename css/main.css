@@ -10,6 +10,10 @@
   color: #5E9DD7;
 }
 
+.green-text {
+  color: #00A282;
+}
+
 .gray-text {
   color: #919191;
 }
@@ -188,6 +192,15 @@ body {
   background-color: #5E9DD7;
   color: white;
   text-align: center;
+}
+
+.btn-cancelar-impuesto {
+  height: 24px;
+  width: 84px;
+  border: 1px solid #00A282;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .card-states {
@@ -528,6 +541,11 @@ header {
   width: 480px;
 }
 
+.grid-radio {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+}
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
@@ -718,6 +736,65 @@ header {
 
 .menu-filters {
   width: 200px;
+}
+
+.rb_filter--green {
+  margin-top: 1em;
+}
+.rb_filter--green input {
+  display: none;
+}
+.rb_filter--green label {
+  display: inline-block;
+  position: relative;
+  padding-left: 24px;
+  cursor: pointer;
+}
+.rb_filter--green label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 50%;
+  margin-top: -8px;
+  border: 1px solid #00A282;
+  border-radius: 50%;
+}
+.rb_filter--green label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 8px;
+  margin-top: 0;
+  background: #00A282;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+.rb_filter--green :checked + label:after {
+  height: 10px;
+  width: 10px;
+  left: 3px;
+  top: 4px;
+}
+
+.input-modal {
+  border: none;
+  border-bottom: 1px solid #919191;
+  margin-bottom: 1em;
+}
+.input-modal:focus {
+  outline: none;
+}
+
+.date-image {
+  background: url(../assets/images/pagina-de-calendario-vacia.png) 0% 50% no-repeat;
+  padding-left: 34px;
+  height: 40px;
 }
 
 .cursor {

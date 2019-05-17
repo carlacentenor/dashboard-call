@@ -139,3 +139,68 @@
 .menu-filters{
     width: 200px;
 }
+
+.rb_filter--green {
+    margin-top: 1em;
+    input {
+        display: none;
+    }
+    label {
+        display: inline-block;
+        position: relative;
+        padding-left: 24px;
+        cursor: pointer;
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            left: 0;
+            top: 50%;
+            margin-top: -8px;
+            border: 1px solid $green-dark;
+            border-radius: 50%;
+        }
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 50%;
+            left: 8px;
+            margin-top: 0;
+            background: $green-dark;
+            border-radius: 50%;
+            transition: .2s ease-in-out;
+        }
+    }
+     :checked+label {
+        &:after {
+            height: 10px;
+            width: 10px;
+            left: 3px;
+            top: 4px;
+        }
+    }
+   
+}
+
+
+
+.input-modal{
+    border: none;
+    border-bottom: 1px solid $gray-dark;
+    margin-bottom: 1em;
+    &:focus{
+        outline: none;
+    }
+}
+
+.date-image{
+    background: url(../assets/images/pagina-de-calendario-vacia.png) 0% 50% no-repeat;
+    padding-left: 34px;
+    height: 40px;
+    
+}
