@@ -6,57 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <p class="title-1 p-title pl-3 mb-0"><i class="fas fa-arrow-left pr-3 cursor"></i><span class="gray-text ">Home </span> / PJ Ovalo Gutierrez
+        <p class="title-1 p-title pl-3 mb-0"><i class="fas fa-arrow-left pr-3 cursor"></i><span class="gray-text ">Home
+            </span> / PJ Ovalo Gutierrez
         </p>
     </header>
     <section>
         <div class="grid-bar-search pl-3 pr-3 pt-3">
-            <div>
-                    <div class="form-group mb-0">
-    
-                            <select class="form-control select-filter select-filter-only" id="exampleFormControlSelect1">
-                                <option>Todos los estados</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-            </div>
+            <div class="grid-nav-bar-store position-relative">
+                <div class="cursor select-filter filter-states bg-white input-filter-store">
+                    <p class="mb-0 pl-1">Todo los estados</p>
+                    <div class="text-right p-1">
+                        <i class=" fas fa-caret-down "></i>
+                    </div>
 
-            <div class="grid-filter-search">
-                <div class="form-group mb-0">
-    
-                    <select class="form-control select-filter" id="exampleFormControlSelect1">
-                        <option>Filtrar por todo</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
                 </div>
-                <div class="border-line d-flex align-items-center justify-content-center">
-                    <div class="line-form"></div>
-                </div>
-    
-                <div class="grid-input-search">
-                    <div>
-                        <input class="input-search pl-3" placeholder="Buscar" type="text">
+                <!-- Menu Estados -->
+                <!-- <div class="position-absolute bg-white menu-states">
+                    <div class="p-2 states-select">
+                        Todos los estados
                     </div>
-    
-                    <div class="btn-search d-flex align-items-center justify-content-center"><i class="fas fa-search"></i>
+                    <div class="grid-states states-select">
+                        <div class="state-square bg-yellow"></div>
+                        <div>En Espera</div>
+                    </div>
+                    <div class="grid-states states-select">
+                        <div class="state-square bg-orange"></div>
+                        <div>En proceso</div>
+                    </div>
+                    <div>
+                        <div class="grid-states states-select">
+                            <div class="state-square bg-skyblue"></div>
+                            <div>Enviados</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid-states states-select">
+                            <div class="state-square bg-turquoise"></div>
+                            <div>Aceptados</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid-states states-select">
+                            <div class="state-square bg-violet"></div>
+                            <div>Driver</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid-states states-select">
+                            <div class="state-square bg-green-s"></div>
+                            <div>Entregados</div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="grid-filter-search position-relative">
+                    <div class=" mb-0 ">
+                        <div class="cursor select-filter filter-states bg-white ">
+                            <p class="mb-0 pl-1">Filtrar por todo</p>
+                            <div class="text-right p-1">
+                                <i class=" fas fa-caret-down "></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="border-line d-flex align-items-center justify-content-center">
+                        <div class="line-form"></div>
+                    </div>
+
+                    <div class="grid-input-search">
+                        <div>
+                            <input class="input-search pl-3" placeholder="Buscar" type="text">
+                        </div>
+
+                        <div class="btn-search d-flex align-items-center justify-content-center"><i
+                                class="fas fa-search"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
     </section>
     <section class="container-orders p-3">
@@ -107,7 +146,8 @@
                 </div>
                 <div class="grid-two-col ">
                     <div class="">Referencias</div>
-                    <div class=" font-weight-bold text-right ">Oficina de 2do piso, al costado de la iglesia, puerta marrón</div>
+                    <div class=" font-weight-bold text-right ">Oficina de 2do piso, al costado de la iglesia, puerta
+                        marrón</div>
                 </div>
                 <div class="grid-two-col ">
                     <div class="">Aceptado</div>
@@ -195,7 +235,8 @@
                 </div>
                 <div class="grid-two-col ">
                     <div class="">Referencias</div>
-                    <div class=" font-weight-bold text-right ">Oficina de 2do piso, al costado de la iglesia, puerta marrón</div>
+                    <div class=" font-weight-bold text-right ">Oficina de 2do piso, al costado de la iglesia, puerta
+                        marrón</div>
                 </div>
                 <div class="grid-two-col ">
                     <div class="">Aceptado</div>
@@ -283,7 +324,8 @@
                 </div>
                 <div class="grid-two-col ">
                     <div class="">Referencias</div>
-                    <div class=" font-weight-bold text-right ">Oficina de 2do piso, al costado de la iglesia, puerta marrón</div>
+                    <div class=" font-weight-bold text-right ">Oficina de 2do piso, al costado de la iglesia, puerta
+                        marrón</div>
                 </div>
                 <div class="grid-two-col ">
                     <div class="">Aceptado</div>

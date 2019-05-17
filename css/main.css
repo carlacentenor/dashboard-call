@@ -265,6 +265,15 @@ body {
   background-color: #F7F7F7;
 }
 
+.menu-states {
+  width: 252px;
+  top: 32px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 3;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
 .table {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
@@ -479,6 +488,24 @@ header {
   padding: 10px 10px 0 10px;
 }
 
+.grid-nav-bar-store {
+  display: grid;
+  grid-template-columns: 252px 1fr;
+  grid-gap: 2em;
+}
+
+.grid-states {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.states-select:hover {
+  background-color: #F7F7F7;
+}
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
@@ -581,6 +608,19 @@ header {
   width: 200px;
 }
 
+.input-filter-store {
+  border: 1px solid #D8D8D8;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 252px;
+}
+
+.filter-states {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
 .border-line {
   border-bottom: 0.5px solid #D8D8D8;
   border-top: 0.5px solid #D8D8D8;
@@ -640,6 +680,11 @@ header {
   border: solid #00A282;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
+}
+
+.state-square {
+  height: 7px;
+  width: 12px;
 }
 
 .cursor {
