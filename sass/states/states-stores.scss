@@ -5,3 +5,13 @@
         background-color: transparent;
     }
 }
+
+.store-desactive{
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid $gray-light;
+    .box-title-store {
+        color: $gray-dark;
+        background-color: transparent;
+    }
+}

@@ -825,4 +825,14 @@ header {
   background-color: transparent;
 }
 
+.store-desactive {
+  background-color: white;
+  box-shadow: none;
+  border: 1px solid #D8D8D8;
+}
+.store-desactive .box-title-store {
+  color: #919191;
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=main.css.map */
