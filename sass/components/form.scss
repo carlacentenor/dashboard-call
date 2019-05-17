@@ -54,8 +54,15 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    width: 310px;
 }
 
+.filter-states-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  
+}
 
 .border-line{
     border-bottom: 0.5px solid $gray-light;

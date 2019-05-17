@@ -266,7 +266,7 @@ body {
 }
 
 .menu-states {
-  width: 252px;
+  width: 310px;
   top: 32px;
   border-radius: 4px;
   font-size: 12px;
@@ -491,7 +491,7 @@ header {
 .grid-nav-bar-store {
   display: grid;
   grid-template-columns: 252px 1fr;
-  grid-gap: 2em;
+  grid-gap: 8em;
 }
 
 .grid-states {
@@ -616,6 +616,13 @@ header {
 }
 
 .filter-states {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 310px;
+}
+
+.filter-states-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
