@@ -546,6 +546,13 @@ header {
   grid-template-columns: repeat(2, 100px);
 }
 
+.grid-nav-bar-new-store {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: flex-end;
+  align-items: center;
+}
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
