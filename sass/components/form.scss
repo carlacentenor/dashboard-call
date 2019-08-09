@@ -198,9 +198,36 @@
     }
 }
 
+
+.input-modal-2{
+    border: none;
+    border-bottom: 1px solid $gray-light;
+    margin-bottom: 1em;
+    width: 100%;
+    
+    &:focus{
+        outline: none;
+        border-bottom: 1px solid $blue-sky;
+        box-shadow: 0px 6px 7px -9px #5e9dd7;
+    }
+}
+
+.user-input{
+ width: 40%;   
+}
+
 .date-image{
     background: url(../assets/images/pagina-de-calendario-vacia.png) 0% 50% no-repeat;
     padding-left: 34px;
     height: 40px;
     
+}
+
+
+
+.input-img{
+    position: absolute;
+    font-size: 16px;
+    color: $gray-dark;
+    padding-left: 8px;
 }
